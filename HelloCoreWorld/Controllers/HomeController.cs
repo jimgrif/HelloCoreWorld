@@ -17,7 +17,7 @@ namespace HelloCoreWorld.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Your application description page. UPDATED TO SHOW GIT DEPLOY THRU KUDU";
 
             return View();
         }
